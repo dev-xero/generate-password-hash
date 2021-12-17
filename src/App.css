@@ -3,3 +3,119 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.App {
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.Header {
+  color: hsl(227, 100%, 98%);
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-size: 1.7rem;
+  letter-spacing: 0.09rem;
+}
+
+p {
+  text-transform: capitalize;
+  color: hsl(228, 48%, 94%);
+  font-size: 1.22rem;
+  font-weight: 500;
+}
+
+p > span {
+  font-size: 1rem;
+  margin-left: 8px;
+  background-color: hsla(225, 83%, 95%, 0.589);
+  padding: 4px 8px;
+  color: hsl(228, 100%, 66%);
+  cursor: pointer;
+  border-radius: 0.125rem;
+  -webkit-border-radius: 0.125rem;
+  -moz-border-radius: 0.125rem;
+  -ms-border-radius: 0.125rem;
+  -o-border-radius: 0.125rem;
+}
+
+p > span::selection {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(214, 100%, 62%);
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  padding: 8px 16px;
+  padding-top: 10px;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  cursor: pointer;
+  margin: 0px 4px;
+  border: none;
+  appearance: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600 !important;
+  font-family: 'Hind', sans-serif !important;
+  letter-spacing: 0.04rem;
+}
+
+button i {
+  margin-bottom: 4px;
+  margin-right: 4px;
+}
+
+.generate-password {
+  background-color: hsl(214, 100%, 62%);
+}
+
+.generate-password:hover {
+  background-color: hsl(214, 100%, 58%);
+}
+
+.save-password {
+  background-color: hsla(0, 0%, 100%, 0.425);
+  color: hsl(214, 58%, 52%);
+}
+
+.save-password:hover {
+  background-color: hsla(0, 0%, 100%, 0.685);
+  color: hsl(214, 100%, 65%);
+}
+
+.clear-btn {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  bottom: 8px;
+  right: 8px;
+  background-color: transparent;
+}
+
+.clear-btn:hover {
+  background-color: hsla(228, 100%, 97%, 0.425);
+}
+
+.clear-btn i {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 4px !important;
+}
